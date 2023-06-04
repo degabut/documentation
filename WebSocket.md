@@ -31,6 +31,7 @@ Other than that, the event list below should be self-explanatory
   - [Queue Shuffle Toggled](#queue-shuffle-toggled)
   - [Queue Cleared](#queue-cleared)
   - [Queue Processed](#queue-processed)
+  - [Queue Text Channel Changed](#queue-text-channel-changed)
   - [Member Added / Removed / Updated](#member-added--removed--updated)
   - [Member Jammed](#member-jammed)
   - [Player Pause State Changed](#player-pause-state-changed)
@@ -281,6 +282,21 @@ List of possible messages received and its payload
       "avatar": "https://cdn.discordapp.com/avatars/294448191808602112/1065d499bca0e0272fe60d397f8c6c95.webp"
     },
     "playedAt": null
+  }
+}
+```
+
+
+### Queue Text Channel Changed
+
+```json
+{
+  "event": "queue-text-channel-changed",
+  "data": {
+    "textChannel": {
+      "id": "12345",
+      "name": "general"
+    }
   }
 }
 ```
