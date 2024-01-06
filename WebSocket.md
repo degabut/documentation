@@ -32,7 +32,7 @@ Other than that, the event list below should be self-explanatory
   - [Queue Cleared](#queue-cleared)
   - [Queue Processed](#queue-processed)
   - [Queue Text Channel Changed](#queue-text-channel-changed)
-  - [Member Added / Removed / Updated](#member-added--removed--updated)
+  - [Member Joined / Removed / Updated](#member-joined--removed--updated)
   - [Member Jammed](#member-jammed)
   - [Player Pause State Changed](#player-pause-state-changed)
   - [Player Tick](#player-tick)
@@ -40,7 +40,7 @@ Other than that, the event list below should be self-explanatory
   - [Track Order Changed](#track-order-changed)
   - [Track Seeked](#track-seeked)
   - [Track Audio Started](#track-audio-started)
-  - [Tracks Added](#tracks-added)
+  - [Tracks Added / Removed](#tracks-added--removed)
 
 ## Send
 
@@ -301,7 +301,7 @@ List of possible messages received and its payload
 }
 ```
 
-### Member Added / Removed / Updated
+### Member Joined / Removed / Updated
 
 ```json
 {
@@ -526,7 +526,7 @@ List of possible messages received and its payload
 }
 ```
 
-### Tracks Added
+### Tracks Added / Removed
 
 ```json
 {
